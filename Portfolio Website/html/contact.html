@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Portfolio Website</title>
+        <link rel="icon" type="image/x-icon" href="../images/icons8-hub-ios-16-16.png">
+
+        <link rel="stylesheet" href="../styles/main.css">
+
+    </head>
+
+    <body>
+        <header>
+            
+            <ul class="header-ul">
+                <li class="header-li"> <a href="index.html" class="header-li-a"> Home </a></li>
+                <li class="header-li"> <a href="portfolio.html" class="header-li-a"> Portfolio </a></li>
+            </ul>
+               
+            <img id="header-img" src="../images/icons8-hub-50(1).png" alt="">
+        
+            <ul class="header-ul">
+                <li class="header-li-2"> <a href="about.html" class="header-li-a"> About </a></li>
+                <li class="header-li-2"> <a href="contact.html" class="header-li-a" id="active"> Contact </a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div id="contact_div_1">
+                <h1 id="contact-div-h1">Contact Me</h1>
+                <form id="contat_form" method="post">
+                    <label for="fname" class="form1" id="fname">First Name: </label>
+                    <input type="text" class="form1" id="fname1" name="fname" size="45" placeholder="Ex: Jon" required><br>
+    
+                    <label for="lname" class="form1" id="lname">Last Name: </label>
+                    <input type="text" class="form1" id="lname1" name="lname" size="45" placeholder="Ex: Snow" required><br>
+    
+                    <label for="email" class="form1" id="email">Email: </label>
+                    <input type="text" class="form1" id="email1"name="email" size="45" placeholder="Ex: jonsnow1234@gmail.com" required><br>
+    
+                    <label for="zcode" class="form1" id="pnum">Phone Number: </label>
+                    <input type="text" class="form1" id="pnum1" name="pnum" size="45" pattern="[0-9]{10}" placeholder="+1 666 666 6666" required><br>
+    
+                    <button class="form1" id="subscribe"><a href="subscribe.html" id="subscribe1"><img src="../images/ui-radios.svg" alt="" id="form_img">Submit</a></button>
+    
+                </form>
+
+            </div>
+            <div id="social_media_div">
+                <a href="https://www.instagram.com/malhaar16/" target="_blank"><img src="../images/icons8-instagram-50.png" alt="Instaram Logo" class="logo"></a>
+                <a href="https://github.com/Malhaar16?tab=repositories" target="_blank"><img src="../images/icons8-github-50.png" alt="Github Logo" class="logo"></a>
+            </div>
+        </main>
+        <footer>
+            <p id="footer-p-1">&copy; Malhaar Patel | Last Updated - 31/7/2023</p>
+        </footer>
+    </body>
+</html>
